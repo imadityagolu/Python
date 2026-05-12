@@ -11,7 +11,7 @@ s1.intersection(s2) # this will return a new set that is the intersection of s1 
 # note : the intersection of two sets is a set that contains only the elements that are common to both sets
 print("intersection of 2 sets: ", s1.intersection(s2))
 
-subset = s1.issubset(s2) # this will check if s1 is a subset of s2, it will return False
+subset = s1.issubset(s2) # this will check if s1 is a subset of s2, it will return boolean value
 print("is s1 a subset of s2: ", subset)
 
 superset = s1.issuperset(s2) # this will check if s1 is a superset of s2, it will return False

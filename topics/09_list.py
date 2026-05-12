@@ -1,4 +1,4 @@
-a = [5, "Hello", 3.14, True]
+a = [5, "Hello", 3.14, True] # this is a list, it is ordered and mutable
 
 print(a)
 print(a[0])
